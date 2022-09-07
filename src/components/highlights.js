@@ -1,5 +1,8 @@
 import React from 'react';
-import circle from 'uswds/img/circle-124.png';
+import circle1 from '../images/freedom.png';
+import circle2 from '../images/cms.png';
+import circle3 from '../images/compliance.png';
+import circle4 from '../images/performance.png';
 
 /*
   Use this section to highlight key elements of your site. Some sites will only have two while others may have six to eight. 
@@ -10,7 +13,7 @@ const Highlights = () => (
     <div className="grid-container">
       <div className="usa-graphic-list__row grid-row grid-gap">
         <div className="usa-media-block tablet:grid-col">
-          <img className="usa-media-block__img" src={circle} alt="Alt text" />
+          <img className="usa-media-block__img" src={circle1} alt="Alt text" />
           <div className="usa-media-block__body">
             <h3 className="usa-graphic-list__heading">
             Freedom to Create
@@ -21,7 +24,7 @@ const Highlights = () => (
           </div>
         </div>
         <div className="usa-media-block tablet:grid-col">
-          <img className="usa-media-block__img" src={circle} alt="Alt text" />
+          <img className="usa-media-block__img" src={circle2} alt="Alt text" />
           <div className="usa-media-block__body">
             <h3 className="usa-graphic-list__heading">
             CMS Training
@@ -34,7 +37,7 @@ const Highlights = () => (
       </div>
       <div className="usa-graphic-list__row grid-row grid-gap">
         <div className="usa-media-block tablet:grid-col">
-          <img className="usa-media-block__img" src={circle} alt="Alt text" />
+          <img className="usa-media-block__img" src={circle3} alt="Alt text" />
           <div className="usa-media-block__body">
             <h3 className="usa-graphic-list__heading">
             Government Compliance
@@ -45,7 +48,7 @@ const Highlights = () => (
           </div>
         </div>
         <div className="usa-media-block tablet:grid-col">
-          <img className="usa-media-block__img" src={circle} alt="Alt text" />
+          <img className="usa-media-block__img" src={circle4} alt="Alt text" />
           <div className="usa-media-block__body">
             <h3 className="usa-graphic-list__heading">
             Performance Tracking

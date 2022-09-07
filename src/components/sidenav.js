@@ -11,11 +11,11 @@ const Sidenav = () => (
     <nav>
       <ul className="usa-sidenav">
         <li className="usa-sidenav__item">
-          <Link to="/">Parent link</Link>
+          <Link to="/">Guide</Link>
         </li>
         <li className="usa-sidenav__item">
           <Link to="/" className="usa-current">
-            Current page
+            General Issuance Information
           </Link>
           <ul className="usa-sidenav__sublist">
             <li className="usa-sidenav__item">
