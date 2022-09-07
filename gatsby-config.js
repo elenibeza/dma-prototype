@@ -14,7 +14,7 @@ module.exports = {
         items: [{ text: 'New Site Request', link: '/blog' }],
       },
       {
-        items: [{ text: 'Guide', link: '/document' }],
+        items: [{ text: 'Guide', link: '/document-with-sidenav' }],
       },
       {
         items: [
@@ -28,7 +28,7 @@ module.exports = {
       },
       {
         items: [
-          { text: 'Training', link: '/document-with-sidenav' },
+          { text: 'Training', link: '/document' },
         ],
       },
       {
