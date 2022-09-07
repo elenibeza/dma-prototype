@@ -13,12 +13,10 @@ const Highlights = () => (
           <img className="usa-media-block__img" src={circle} alt="Alt text" />
           <div className="usa-media-block__body">
             <h3 className="usa-graphic-list__heading">
-              Graphic headings can vary.
+            Freedom to Create
             </h3>
             <p>
-              Graphic headings can be used a few different ways, depending on
-              what your landing page is for. Highlight your values, specific
-              program areas, or results.
+            WEB.mil provides customer organizations with the American Forces Public Information Management System
             </p>
           </div>
         </div>
@@ -26,12 +24,10 @@ const Highlights = () => (
           <img className="usa-media-block__img" src={circle} alt="Alt text" />
           <div className="usa-media-block__body">
             <h3 className="usa-graphic-list__heading">
-              Stick to 6 or fewer words.
+            CMS Training
             </h3>
             <p>
-              Keep body text to about 30 words. They can be shorter, but try to
-              be somewhat balanced across all four. It creates a clean
-              appearance with good spacing.
+           Online training is available and required for all of our customers before they are provided access to build or maintain their web site.
             </p>
           </div>
         </div>
@@ -41,12 +37,10 @@ const Highlights = () => (
           <img className="usa-media-block__img" src={circle} alt="Alt text" />
           <div className="usa-media-block__body">
             <h3 className="usa-graphic-list__heading">
-              Never highlight anything without a goal.
+            Government Compliance
             </h3>
             <p>
-              For anything you want to highlight here, understand what your
-              users know now, and what activity or impression you want from them
-              after they see it.
+            WEB.mil maintains the infrastructure and robust distribution system that meets all DoD standards for information security of DoD web sites
             </p>
           </div>
         </div>
@@ -54,12 +48,10 @@ const Highlights = () => (
           <img className="usa-media-block__img" src={circle} alt="Alt text" />
           <div className="usa-media-block__body">
             <h3 className="usa-graphic-list__heading">
-              Could also have 2 or 6.
+            Performance Tracking
             </h3>
             <p>
-              In addition to your goal, find out your users’ goals. What do they
-              want to know or do that supports your mission? Use these headings
-              to show those.
+            WEB.mil offers the SiteGauge web statistics analysis program as a means for our webhosting customers to analyze statistics for their respective website(s)
             </p>
           </div>
         </div>
