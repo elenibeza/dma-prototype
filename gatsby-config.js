@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
     // Replace the Site URL with your domain, ex. https://example.gov 
-    siteUrl: 'https://example.gov',
-    author: 'Foo',
+    siteUrl: 'https://web.dma.mil',
+    author: 'WEB',
     title: `DMA-Web Enterprise Business`,
     description: `Agency Name (EAC) Lorem ipsum dolor sit amet, consectetur adipiscing elit.
     Aenean et sapien a leo auctor scelerisque quis nec magna. Sed dictum ante a risus vehicula facilisis.`,
@@ -11,22 +11,32 @@ module.exports = {
         items: [{ text: 'Home', link: '/' }],
       },
       {
-        items: [{ text: 'Blog', link: '/blog' }],
+        items: [{ text: 'New Site Request', link: '/blog' }],
       },
       {
-        items: [{ text: 'Document', link: '/document' }],
+        items: [{ text: 'Guide', link: '/document' }],
       },
       {
         items: [
-          { text: 'Document with sidenav', link: '/document-with-sidenav' },
+          { text: 'Our Customer', link: '/document-with-sidenav' },
         ],
       },
       {
-        title: 'Document submenu',
         items: [
-          { text: 'Navigation link', link: '/' },
-          { text: 'Navigation link', link: '/' },
-          { text: 'Navigation link', link: '/' },
+          { text: 'FAQ', link: '/document-with-sidenav' },
+        ],
+      },
+      {
+        items: [
+          { text: 'Training', link: '/document-with-sidenav' },
+        ],
+      },
+      {
+        title: 'Contact',
+        items: [
+          { text: 'Team', link: '/' },
+          //{ text: 'Navigation link', link: '/' },
+          //{ text: 'Navigation link', link: '/' },
         ],
       },
     ],
