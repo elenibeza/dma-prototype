@@ -9,22 +9,16 @@ const Tagline = () => (
     <div className="grid-row grid-gap">
       <div className="tablet:grid-col-4">
         <h2 className="font-heading-xl margin-top-0 tablet:margin-bottom-0">
-          A tagline highlights your approach
+          What We Provide
         </h2>
       </div>
       <div className="tablet:grid-col-8 usa-prose">
         <p>
-          The tagline should inspire confidence and interest, focusing on the
-          value that your overall approach offers to your audience. Use a
-          heading typeface and keep your tagline to just a few words, and don’t
-          confuse or mystify.
+          Web Enterprise Business (WEB.mil) provides a government PUBLIC FACING 
+          enterprise hosting solution and robust distribution system that meets all 
+          Department of Defense standards for information security. This solution is built for the Public Affairs mission in mind to professionally create web sites for public viewing. Customers enjoy the user experience with our content management system: Value, Ease of Use, and Enjoyment to Use. Check out our "Testimonials" page to see what our customers had to say about us!
         </p>
-        <p>
-          Use the right side of the grid to explain the tagline a bit more. What
-          are your goals? How do you do your work? Write in the present tense,
-          and stay brief here. People who are interested can find details on
-          internal pages.
-        </p>
+    
       </div>
     </div>
   </section>
