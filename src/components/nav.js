@@ -49,13 +49,13 @@ const Nav = ({ navigation, secondaryLinks }) => (
         ))}
       </ul>
       <div className="usa-nav__secondary">
-        <ul className="usa-nav__secondary-links">
+        {/* <ul className="usa-nav__secondary-links">
           {secondaryLinks.map((secondaryLink, idx) => (
             <li key={idx} className="usa-nav__secondary-item">
               <Link to={secondaryLink.link}>{secondaryLink.text}</Link>
             </li>
           ))}
-        </ul>
+        </ul> */}
         <SearchForm />
       </div>
     </div>
