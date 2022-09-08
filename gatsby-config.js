@@ -23,7 +23,7 @@ module.exports = {
       },
       {
         items: [
-          { text: 'FAQ', link: '/document-with-sidenav' },
+          { text: 'FAQ', link: '/faq' },
         ],
       },
       {
