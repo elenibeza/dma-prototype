@@ -34,7 +34,7 @@ module.exports = {
       {
         title: 'Contact',
         items: [
-          { text: 'Team', link: '/' },
+          { text: 'Team', link: '/internal-page' },
           //{ text: 'Navigation link', link: '/' },
           //{ text: 'Navigation link', link: '/' },
         ],
