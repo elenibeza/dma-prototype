@@ -23,7 +23,7 @@ module.exports = {
       },
       {
         items: [
-          { text: 'FAQ', link: '/document-with-sidenav' },
+          { text: 'FAQ', link: '/internal-page' },
         ],
       },
       {
@@ -40,10 +40,10 @@ module.exports = {
         ],
       },
     ],
-    secondaryLinks: [
-      { text: 'Secondary link', link: '/' },
-      { text: 'Another secondary link', link: '/' },
-    ],
+    // secondaryLinks: [
+    //   { text: 'Secondary link', link: '/' },
+    //   { text: 'Another secondary link', link: '/' },
+    // ],
 
     /**
      * Search.gov configuration
