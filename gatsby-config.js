@@ -23,7 +23,7 @@ module.exports = {
       },
       {
         items: [
-          { text: 'FAQ', link: '/internal-page' },
+          { text: 'FAQ', link: '/document-with-sidenav' },
         ],
       },
       {
@@ -144,14 +144,7 @@ module.exports = {
         path: `${__dirname}/src/blog-posts`,
       },
     },
-    // {
-    //   resolve: `gatsby-source-filesystem`,
-    //   options: {
-    //     name: `internal-pages`,
-    //     path: `${__dirname}/src/internal-pages`,
-    //   },
-    // },
-    {
+      {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `documentation-pages`,
