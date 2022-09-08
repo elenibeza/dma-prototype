@@ -9,7 +9,7 @@ import Sidenav from '../components/sidenav';
   This template is for a single page that does not have a date associated with it. For example, an about page.
 */
 
-const InternallogPage = ({ data }) => {
+const InternalPage = ({ data }) => {
   const { markdownRemark } = data;
   const { frontmatter, html } = markdownRemark;
 
