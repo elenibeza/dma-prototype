@@ -158,6 +158,7 @@ module.exports = {
         path: `${__dirname}/src/documentation-pages`,
       },
     },
+    
     `gatsby-transformer-remark`,
     {
       resolve: `gatsby-plugin-manifest`,

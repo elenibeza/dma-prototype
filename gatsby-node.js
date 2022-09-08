@@ -81,13 +81,13 @@ async function createMarkdownPages(createPage, graphql) {
 }
 
 async function createMarkdownPages(createPage, graphql) {
-  const pageTemplate1 = path.resolve('./src/templates/internal-page.js');
-  const pages1 = await markdownQuery(graphql, 'internal-pages');
+  const internalTemplate = path.resolve('./src/templates/internal-page.js');
+  const internalpages = await markdownQuery(graphql, 'internal-pages');
 
-  pages1.forEach(({ node }) => {
+  internalpages.forEach(({ node }) => {
     createPage({
       path: node.fields.name,
-      component: pageTemplate1,
+      component: internalTemplate,
       context: {
         name: node.fields.name
       },
