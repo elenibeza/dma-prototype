@@ -1,7 +1,6 @@
 import React from 'react';
 import logo from '../images/United_States_Department_of_Defense_Seal.png';
 
-
 const Footer = () => (
   <footer className="usa-footer site-footer" role="contentinfo">
     <div className="footer-section-bottom bg-base-lighter">
@@ -44,7 +43,6 @@ const Footer = () => (
       </div>
     </div>
   </footer>
-
 );
 
 export default Footer;
