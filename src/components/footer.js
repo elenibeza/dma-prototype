@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from '../images/United_States_Department_of_Defense_Seal.svg.png';
+import customcss from '';
 
 const Footer = () => (
   <footer className="usa-footer site-footer" role="contentinfo">
@@ -42,7 +43,7 @@ const Footer = () => (
         </div>
       </div>
     </div>
-    <div className="usa-graphic-list usa-section usa-section--dark"> 
+    <div class="footer2"> 
     Hosted by Defense Media Activity - WEB.mil
     </div>
   </footer>
