@@ -43,8 +43,9 @@ const Footer = () => (
       </div>
     </div>
     
-    <div className="usa-graphic-list usa-section usa-section--dark">
-     <p>Hosted by Defense Media Activity - WEB.mil </p>
+
+    <div className="footer-section-bottom usa-section--dark">
+     <p style="align:center">Hosted by Defense Media Activity - WEB.mil </p>
     </div>
   </footer>
 );
