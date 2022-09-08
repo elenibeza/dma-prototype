@@ -43,7 +43,7 @@ const Footer = () => (
         </div>
       </div>
     </div>
-    <div class="footer2"> 
+    <div className="footer2"> 
     Hosted by Defense Media Activity - WEB.mil
     </div>
   </footer>
