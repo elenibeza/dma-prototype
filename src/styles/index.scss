@@ -9,6 +9,7 @@ $theme-show-notifications: false;
   files to resolve correctly.
 */
 $theme-image-path: '../../node_modules/uswds/src/img';
+$theme-image-path2: '../images';
 $theme-font-path: '../../node_modules/uswds/src/fonts';
 
 /*
@@ -16,7 +17,7 @@ $theme-font-path: '../../node_modules/uswds/src/fonts';
   the $theme-image-path above.
 */
 
-$theme-hero-image: '#{$theme-image-path}/hero.png';
+$theme-hero-image: '#{$theme-image-path2}/AbstractTechBG.png';
 
 // Your custom changes to variables go here
 // Uncomment to see this working
