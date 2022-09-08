@@ -42,7 +42,7 @@ const Footer = () => (
         </div>
       </div>
     </div>
-    <div style="color: white;background-color: #162e51;text-align: center;padding: 10px;"> 
+    <div className="usa-graphic-list usa-section usa-section--dark"> 
     Hosted by Defense Media Activity - WEB.mil
     </div>
   </footer>
