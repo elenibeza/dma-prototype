@@ -36,7 +36,7 @@ collections:
   - name: documentation
     label: Documentation Pages
     label_singular: Documentation Page
-    folder: src/internal-pagesges
+    folder: src/documentation-pages
     create: true
     preview_path: '{{slug}}'
     editor:
@@ -46,7 +46,7 @@ collections:
       - { label: 'Sidenav', name: 'sidenav', widget: 'boolean' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
     
-  - name: internal-pages
+  - name: internal
     label: Internal Pages
     label_singular: Internal Page
     folder: src/internal-pages

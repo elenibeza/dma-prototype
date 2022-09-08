@@ -144,13 +144,13 @@ module.exports = {
         path: `${__dirname}/src/blog-posts`,
       },
     },
-    // {
-    //   resolve: `gatsby-source-filesystem`,
-    //   options: {
-    //     name: `internal-pages`,
-    //     path: `${__dirname}/src/internal-pages`,
-    //   },
-    // },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `internal-pages`,
+        path: `${__dirname}/src/internal-pages`,
+      },
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
