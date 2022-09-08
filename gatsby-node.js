@@ -81,18 +81,18 @@ async function createMarkdownPages(createPage, graphql) {
 }
 
 async function createMarkdownPages(createPage, graphql) {
-  const pageTemplate2 = path.resolve('./src/templates/internal-page.js');
-  const pages2 = await markdownQuery(graphql, 'internal-pages');
+  const pageTemplate = path.resolve('./src/templates/internal-page.js');
+  const pages = await markdownQuery(graphql, 'blog-posts');
 
-  // pages2.forEach(({ node }) => {
-  //   createPage({
-  //     path: node.fields.name,
-  //     component: pageTemplate2,
-  //     context: {
-  //       name: node.fields.name
-  //     },
-  //   });
-  // });
+  pages.forEach(({ node }) => {
+    createPage({
+      path: node.fields.name,
+      component: pageTemplate,
+      context: {
+        name: node.fields.name
+      },
+    });
+  });
 }
 
 async function markdownQuery(graphql, source) {
