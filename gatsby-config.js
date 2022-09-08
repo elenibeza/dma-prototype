@@ -147,6 +147,13 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
+        name: `internal-pages`,
+        path: `${__dirname}/src/internal-pages`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
         name: `documentation-pages`,
         path: `${__dirname}/src/documentation-pages`,
       },

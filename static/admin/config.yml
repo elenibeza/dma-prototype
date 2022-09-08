@@ -45,3 +45,15 @@ collections:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Sidenav', name: 'sidenav', widget: 'boolean' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
+    
+  - name: internalpages
+    label: Internal Pages
+    label_singular: Internal Page
+    folder: src/internal-pages
+    create: true
+    preview_path: '{{slug}}'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
