@@ -42,7 +42,11 @@ const Footer = () => (
         </div>
       </div>
     </div>
+    <div style="color: white;background-color: #162e51;text-align: center;padding: 10px;"> 
+    Hosted by Defense Media Activity - WEB.mil
+    </div>
   </footer>
+
 );
 
 export default Footer;
