@@ -158,11 +158,16 @@ module.exports = {
     },
 //social media
 {
-  resolve: `gatsby-plugin-social9-socialshare`,
-options: {
-  content:  `content`,
-  async:  true,
-  defer:  true
+//   resolve: `gatsby-plugin-social9-socialshare`,
+// options: {
+//   content:  `content`,
+//   async:  true,
+//   defer:  true
+resolve: "gatsby-plugin-social9-socialshare",
+      options: {
+        content:  "9384b111b72149af9a790512611ff91c",
+        async: true,
+        defer: true
 },},
 
       {
