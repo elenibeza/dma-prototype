@@ -1,3 +1,15 @@
+// module.exports = {
+// 	plugins: [{
+// 		resolve: `gatsby-plugin-social9-socialshare`,
+// 		options: {
+// 			content:  `xxxxxxxxxx`,
+// 			async:  true,
+// 			defer:  true
+// 		}
+// 	}],
+// }
+
+
 module.exports = {
   siteMetadata: {
     // Replace the Site URL with your domain, ex. https://example.gov 
@@ -144,6 +156,15 @@ module.exports = {
         path: `${__dirname}/src/blog-posts`,
       },
     },
+//social media
+{
+  resolve: `gatsby-plugin-social9-socialshare`,
+options: {
+  content:  `content`,
+  async:  true,
+  defer:  true
+},},
+
       {
       resolve: `gatsby-source-filesystem`,
       options: {
