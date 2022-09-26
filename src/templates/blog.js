@@ -9,7 +9,6 @@ import "react-draft-wysiwyg/dist/react-draft-wysiwyg.css";
 
 
 const Blog = ({ data, pageContext }) => {
-  const [editorState, setEditorState] = useState(()=> EditorState.createEmpty())
   const posts = data.allMarkdownRemark.edges.map(({ node }) => ({
     html: node.html,
     ...node.frontmatter,
