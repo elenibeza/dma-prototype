@@ -4,6 +4,9 @@ import { graphql, Link } from 'gatsby';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 import Pagination from '../components/pagination';
+import {Editor, EditorState} from 'draft-js'
+import "react-draft-wysiwyg/dist/react-draft-wysiwyg.css";
+
 
 const Blog = ({ data, pageContext }) => {
   const posts = data.allMarkdownRemark.edges.map(({ node }) => ({
@@ -170,8 +173,26 @@ const Blog = ({ data, pageContext }) => {
                 </li>
               </ul>
             </div>
+
+            <div>
+        <Editor editorState={editorState} onChange={setEditorState}/>
+       </div>
+
+       <div>
+      <h1>React Editors</h1>
+      <h2>Start editing to see some magic happen!</h2>
+      <div style={{ border: "1px solid black", padding: '2px', minHeight: '400px' }}>
+        <Editor
+          editorState={editorState}
+          onEditorStateChange={setEditorState}
+        />
+      </div>
+    </div>
           </aside>
         </div>
+
+      
+
         <div className="grid-row padding-top-4 tablet:padding-x-4 margin-bottom-4">
           <a className="usa-link" href="#blog">
             Return to top
