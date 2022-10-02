@@ -9,6 +9,7 @@ import "react-draft-wysiwyg/dist/react-draft-wysiwyg.css";
 
 
 const Blog = ({ data, pageContext }) => {
+  const [editorState, setEditorState] = useState(()=> EditorState.createEmpty())
   const posts = data.allMarkdownRemark.edges.map(({ node }) => ({
     html: node.html,
     ...node.frontmatter,
@@ -76,7 +77,7 @@ const Blog = ({ data, pageContext }) => {
               </ul>
             </div>
             <div className="border-top-1 border-accent-cool-darker padding-top-2 margin-bottom-4 usa-prose">
-              <h4>Another list of links</h4>
+              <h4>Another list of links22</h4>
               <ul className=" usa-list usa-list--unstyled padding-top-2">
                 <li className="padding-bottom-1">
                   <Link className="usa-link" to="/blog">
@@ -107,6 +108,29 @@ const Blog = ({ data, pageContext }) => {
             </div>
             <div className="border-top-1 border-accent-cool-darker padding-top-2 margin-bottom-4 usa-prose">
               <h4>Social links</h4>
+
+              <div>
+        <Editor editorState={editorState} onChange={setEditorState}/>
+       </div>
+
+       <div>
+      <h1>React Editors</h1>
+      <h2>Start editing to see some magic happen!</h2>
+      <div style={{ border: "1px solid black", padding: '2px', minHeight: '400px' }}>
+        <Editor
+          editorState={editorState}
+          onEditorStateChange={setEditorState}
+        />
+      </div>
+    </div>
+
+
+
+
+
+
+
+
               <ul className="usa-list usa-list--unstyled padding-top-2">
                 <li className="padding-bottom-1">
                   <svg
@@ -174,20 +198,7 @@ const Blog = ({ data, pageContext }) => {
               </ul>
             </div>
 
-            <div>
-        <Editor editorState={editorState} onChange={setEditorState}/>
-       </div>
-
-       <div>
-      <h1>React Editors</h1>
-      <h2>Start editing to see some magic happen!</h2>
-      <div style={{ border: "1px solid black", padding: '2px', minHeight: '400px' }}>
-        <Editor
-          editorState={editorState}
-          onEditorStateChange={setEditorState}
-        />
-      </div>
-    </div>
+    
           </aside>
         </div>
 
